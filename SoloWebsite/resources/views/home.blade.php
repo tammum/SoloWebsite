@@ -157,7 +157,45 @@
         .about-item {
             background-color:#fff;
             padding:80px 30px;
-            box-shadow:
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .about-item i {
+            font-size: 42px;
+            margin: 0px;
+        }
+        .about-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .about-item hr {
+            width: 45px;
+            height: 3px;
+            background-color:#f4c613;
+            margin: 0 auto;
+            border: none;
+        }
+        .about-item p {
+            margin-top: 20px;
+        }
+        .about-item:hover {
+            background-color:#f4c613;
+        }
+        .about-item:hover i,
+        .about-item:hover h3,
+        .about-item:hover p {
+            color:#fff;
+        }
+        .about-item:hover hr {
+            background-color:#fff;
+        }
+        .about-item:hover i {
+            transform: translateY(-25px);
+        }
+        .about-item,
+        .about-item i ,
+        .about-item hr {
+            -webkit-transition: all 400ms ease-in-out;
+            transitions: all 400ms ease-in-out;
         }
     </style>
 </head>
@@ -259,7 +297,6 @@
                             debitis dolor soluta!</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
