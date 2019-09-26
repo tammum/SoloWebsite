@@ -302,6 +302,29 @@
     </div>
     </div>
 </section>
+
+<!--team section starts-->
+<section id="team">
+    <div class="content-box-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="team-left">
+                        <div class="vertical-heading">
+                            <h5>Who we are</h5>
+                            <h1>Meet our<br><strong>Talented</strong>Team</h1>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti atque, tenetur quam aspernatur corporis at
+                            explicabo nulla dolore necessitatibus doloremque exercitationem sequi dolorem architecto perferendis quas aperiam
+                            debitis dolor soluta!</p>
+                    </div>
+                </div>
+                <div class="col-md-6">right side</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--team section ends-->
 <!-- jquery Scripts -->
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
